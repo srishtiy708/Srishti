@@ -521,3 +521,149 @@ footer {
         padding: 6rem 5% 3rem;
     }
 }
+
+/* Enhanced Leadership Section Styles */
+.leadership {
+    text-align: center;
+    padding: 10rem 5% 5rem;
+}
+
+.leadership-section-header {
+    margin-bottom: 5rem;
+}
+
+.leadership-section-header .eyebrow {
+    color: var(--accent-color);
+    letter-spacing: 4px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+.leadership-section-header .main-title {
+    font-size: 4rem;
+    font-family: var(--font-heading);
+    color: white;
+    font-weight: 700;
+}
+
+.leadership-card {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5rem;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border-color);
+    border-top: 1px solid rgba(0, 242, 255, 0.4);
+    border-radius: 20px;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.4);
+}
+
+.company-status {
+    color: var(--accent-color);
+    letter-spacing: 2px;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.leadership-content p {
+    color: var(--text-secondary);
+    font-size: 1.15rem;
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+
+.leadership-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 4rem;
+    margin: 5rem 0;
+}
+
+.l-service h5 {
+    color: #4db8ff;
+    font-size: 1.4rem;
+    margin-bottom: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: var(--font-heading);
+}
+
+.l-service h5 i {
+    font-size: 1.2rem;
+}
+
+.l-service ul {
+    list-style: none;
+}
+
+.l-service li {
+    color: var(--text-secondary);
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+    display: flex;
+    gap: 10px;
+}
+
+.umbrella-box {
+    border-left: 5px solid #3b82f6;
+    padding: 1.5rem 2.5rem;
+    background: rgba(59, 130, 246, 0.08);
+    margin: 4rem 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.umbrella-box p {
+    color: #e0e0f0;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.leadership-footer {
+    margin-top: 4rem;
+}
+
+.s2-official-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: #3b82f6;
+    color: white;
+    padding: 1.2rem 3rem;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+    border: none;
+}
+
+.s2-official-btn:hover {
+    background: #2563eb;
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 30px rgba(59, 130, 246, 0.6);
+}
+
+@media (max-width: 768px) {
+    .leadership {
+        padding: 6rem 5% 3rem;
+    }
+
+    .leadership-section-header .main-title {
+        font-size: 2.5rem;
+    }
+
+    .leadership-card {
+        padding: 3rem 1.5rem;
+    }
+
+    .leadership-services {
+        gap: 2.5rem;
+        margin: 3rem 0;
+    }
+}
